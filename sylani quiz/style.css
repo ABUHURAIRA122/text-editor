@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* margin: 0;  */
+    background-image: url(07eb1228a239342d7ca73e405b8696ca.jpg);
+    background-color: #f4f4f9;
+}
+
+.editor-container {
+    width: 80%;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #474646;
+    padding: 10px;
+}
+
+.toolbar button {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.toolbar button:hover {
+    background: #474545;
+}
+
+.editor {
+    padding: 20px;
+    min-height: 300px;
+    outline: none;
+    color: rgb(161, 238, 84);
+
+}
